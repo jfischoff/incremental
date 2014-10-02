@@ -2,9 +2,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 module STG where
 import Language.LBNF
-import Language.LBNF.Compiletime
-import qualified Language.LBNF.Grammar
-import Prelude hiding (Right, Left)
+
 
 bnfc [lbnf|
 
